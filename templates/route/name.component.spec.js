@@ -1,5 +1,7 @@
 'use strict';
 
+//Component created with generator-my-ng-generator
+
 describe('Component: <%= classedName %>Component', function() {
   // load the controller's module
   beforeEach(module('<%= scriptAppName %>'));
