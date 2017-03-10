@@ -2,9 +2,11 @@
 
 //Component created with generator-my-ng-generator (modified)
 
+import <%= classedName %>Module from './<%= classedName %>.component';
+
 describe('Component: <%= classedName %>Component', function() {
   // load the controller's module
-  beforeEach(angular.mock.module('<%= scriptAppName %>'));
+  beforeEach(angular.mock.module(<%= classedName %>Module));
 
   var <%= classedName %>Component;
 
