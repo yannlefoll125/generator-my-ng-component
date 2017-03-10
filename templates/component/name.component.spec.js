@@ -1,8 +1,10 @@
 'use strict';
 
+import <%= cameledName %>Module from './<%= cameledName %>.component';
+
 describe('Component: <%= cameledName %>', function() {
   // load the component's module
-  beforeEach(module('<%= scriptAppName %>'));
+  beforeEach(angular.mock.module(<%= cameledName %>Module));
 
   var <%= cameledName %>Component;
 
