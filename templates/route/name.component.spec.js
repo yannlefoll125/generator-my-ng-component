@@ -1,10 +1,10 @@
 'use strict';
 
-//Component created with generator-my-ng-generator
+//Component created with generator-my-ng-generator (modified)
 
 describe('Component: <%= classedName %>Component', function() {
   // load the controller's module
-  beforeEach(module('<%= scriptAppName %>'));
+  beforeEach(angular.mock.module('<%= scriptAppName %>'));
 
   var <%= classedName %>Component;
 
